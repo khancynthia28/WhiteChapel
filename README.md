@@ -19,3 +19,24 @@ Rules :
 So suppose detective asks about node 27. And Jack says no. Then we remove all the 27s and the edges connected to 27 from the tree. 
 
 3. Same with arrest. If arrest result is yes then tree remains the same. Otherwise we remove that arrest node and its connected edges. 
+
+#### Project Description
+
+<projectDescription>
+  
+	<name>project03</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+  
+</projectDescription>
