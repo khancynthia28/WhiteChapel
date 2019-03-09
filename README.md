@@ -8,3 +8,14 @@
 5. Then we call the setLeaves method to update the Leaves Hashset. We now add the vertices (leaf.add(v)) we just found as the new leaves in the leaves hashset. 
 
 And we do the above for each of the leaves we have in the Leaves Set.
+
+#### ProcessDetectiveMove method. 
+
+Rules : 
+1. If the answer to detectives question is yes then the  move tree remains the same
+
+2. If the answer is no then we have to remove that vertex and node from the tree. 
+
+So suppose detective asks about node 27. And Jack says no. Then we remove all the 27s and the edges connected to 27 from the tree. 
+
+3. Same with arrest. If arrest result is yes then tree remains the same. Otherwise we remove that arrest node and its connected edges. 
